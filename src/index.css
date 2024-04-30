@@ -1,0 +1,145 @@
+
+:root {
+  font-family: sans-serif; 
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #FFCC00;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block; 
+}
+
+.navbar a.active {
+  background-color: #0099FF;
+}
+
+/* Content  */
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+/* HelpBar */
+.help-bar nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+.help-bar nav a{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.help-bar nav a:hover {
+  border-color: #FFCC00;
+}
+
+.help-bar nav a.active {
+  background: #0099FF;
+}
+
+/* faq */
+.faq .question {
+  background: rgba(0,0,0,0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* Reachout form */
+form {
+  margin-top: 30px;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 30px;
+  padding: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.2); 
+  border-radius: 4px;
+  width: 300px;
+  background-color: #FFF; 
+  color: rgba(0, 0, 0, 0.6); 
+}
+
+form textarea {
+  height: 100px; 
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+/* Not Found */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    column-gap: 20px;
+  }
+
+.container img {
+    width: 420px;
+    margin: 0 auto; 
+  }
+
+  .button-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .not-found {
+    text-align: center;
+  }
+
+  .button {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #1b1d7c;
+    background-color: transparent;
+    transition-duration: 0.4s;
+  }
+  
